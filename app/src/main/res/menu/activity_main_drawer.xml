@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/group1"
+        android:checkableBehavior="single">
+		<item
+			android:id="@+id/section1"
+			android:checked="true"
+			android:title="@string/section1_title" />
+
+    </group>
+
+		<item
+			android:id="@+id/section2"
+			android:title="@string/section2_title" />
+		<item
+			android:id="@+id/nav_rate"
+			android:title="@string/rate_this_app" />
+
+
+</menu>

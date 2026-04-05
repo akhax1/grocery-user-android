@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" android:required="true"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-permission android:name="android.permission.MICROPHONE" />
+	<uses-permission android:name="android.permission.RECORD_AUDIO" />
+<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"  />
+<!--    <uses-feature android:name="android.hardware.audio.low_latency"  android:required="true"/>-->
+<!--    <uses-feature android:name="android.hardware.audio.pro" android:required="true" />-->
+<!--    <uses-feature android:name="android.hardware.microphone" android:required="true"/>-->
+
+
+    <application
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name="com.kkgrocery.user.ApplicationClass"
+        android:hardwareAccelerated="true"
+        android:usesCleartextTraffic="true"
+        android:icon="@drawable/splash">
+
+        <activity
+                android:name="com.kkgrocery.user.SplashActivity"
+                android:theme="@style/SplashTheme"
+                android:configChanges="orientation|keyboardHidden"
+                android:hardwareAccelerated="true"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <!-- Specify the data scheme and host for your deep link -->
+                <data
+                    android:scheme="pop"
+                    android:host="bahon.in" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name="com.kkgrocery.user.MainActivity"
+                android:label="@string/app_name"
+                android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name="com.kkgrocery.user.PhotoViewActivity"></activity>
+
+
+    </application>
+
+</manifest>

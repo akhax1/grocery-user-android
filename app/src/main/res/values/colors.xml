@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color> <!-- White -->
+    <color name="colorPrimaryDark">#FFFFFF</color> <!-- Status bar white rahega -->
+    <color name="colorPrimaryLight">#F5F5F5</color>
+    <color name="colorTextOnPrimary">#212121</color> <!-- Text Black rakha hai taaki dikhe -->
+    <color name="colorAccent">#000000</color> <!-- Buttons black -->
+    <color name="colorTextOnAccent">#FFFFFF</color>
+    <color name="colorSplashBg">#FFFFFF</color> <!-- Splash screen white -->
+</resources>

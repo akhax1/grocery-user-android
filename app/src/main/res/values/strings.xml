@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">KK Grocery Store</string>
+    <string name="share_text">You might want to take a look at this:</string>
+
+    	<string name="title_something_went_wrong">Something went Wrong</string>
+	<string name="title_no_internet">No Internet</string>
+	<string name="check_your_connection">Please check your internet connection.</string>
+	<string name="section1_title">My Web Page Section</string>
+	<string name="section2_title">My Link</string>
+	<string name="rate_this_app">Rate This App</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <string name="error_invalid_request">Invalid request error. </string>
+
+    <string name="first_photo">First photo.</string>
+    <string name="last_photo">Last photo.</string>
+
+    <string name="wallpaper">Wallpaper</string>
+    <string name="wallpaper_has_been_set">Wallpaper has been set.</string>
+    <string name="could_not_change_wallpaper">Could not change wallpaper.</string>
+    <string name="share">Share</string>
+    <string name="order">Order</string>
+    <string name="alphabetical_az">Alphabetical (A > Z)</string>
+    <string name="alphabetical_za">Alphabetical (Z > A)</string>
+    <string name="new_to_old">New to Old</string>
+    <string name="old_to_new">Old to New</string>
+    <string name="filter">Filter</string>
+    <string name="search">Search</string>
+    <string name="apply">Apply</string>
+    <string name="only_featured">Only Featured</string>
+    <string name="only_sale">Only Sale</string>
+
+
+    <string name="name">Name</string>
+    <string name="email">E-mail</string>
+    <string name="phone">Phone</string>
+    <string name="subject">Subject</string>
+    <string name="Message">Message</string>
+    <string name="send">Send</string>
+    <string name="retry">Retry</string>
+
+    <string name="name_required">Name is required</string>
+    <string name="email_required">Email is required</string>
+    <string name="invalid_email">Invalid e-mail address</string>
+    <string name="phone_required">Phone is required</string>
+    <string name="invalid_phone">Invalid phone number</string>
+    <string name="subject_required">Subject is required</string>
+    <string name="message_required">Message is required</string>
+    <string name="username_required">Username is required</string>
+    <string name="password_required">Password is required</string>
+    <string name="current_password_required">Current password is required</string>
+    <string name="new_password_required">New password is required</string>
+    <string name="confirm_new_password_required">Confirm new password is required</string>
+    <string name="passwords_not_same">Passwords are not same.</string>
+    <string name="current_password_invalid">Current password is not valid.</string>
+
+    <string name="first_name_required">First name is required</string>
+    <string name="last_name_required">Last Name is required</string>
+    <string name="display_name_required">Display name is required</string>
+    <string name="country_required">Country is required</string>
+    <string name="address_line_1_required">Address Line 1 is required</string>
+    <string name="postcode_zip_required">Postcode / ZIP is required</string>
+    <string name="city_town_required">City / Town is required</string>
+    <string name="state_county_required">State / County is required</string>
+
+    <string name="write_storage_permission_rationale">Write storage permission is required for downloading.</string>
+    <string name="fine_location_permission_rationale">Do you allow access to your location?</string>
+    <string name="record_audio_permission_rationale">Do you allow access to your microphone?</string>
+    <string name="camera_permission_rationale">Do you allow access to your camera?</string>
+
+    <string name="url_could_not_handled">URL could not handled.</string>
+
+    <string name="remove_ads">Remove Ads</string>
+
+    <string name="username_email">Username or Email Address</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="register">Register</string>
+    <string name="my_account">My Account</string>
+    <string name="logged_in">Logged In</string>
+    <string name="username_or_password_incorrect">Username or password is incorrect.</string>
+    <string name="current_password_incorrect">Current password is incorrect.</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+    <string name="none">None</string>
+
+    <string name="title_login_failed">Log-in Failed</string>
+    <string name="title_error">ERROR</string>
+    <string name="title_warning">WARNING</string>
+    <string name="title_info">INFO</string>
+
+    <string name="check_store_url">Please check your store url.</string>
+    <string name="user_not_a_customer">This user is not a customer.</string>
+
+    <string name="orders">Orders</string>
+    <string name="billing_address">Billing Address</string>
+    <string name="shipping_address">Shipping Address</string>
+    <string name="account_details">Account Details</string>
+    <string name="logout">Logut</string>
+    <string name="save">Save</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="company_name_optional">Company Name (Optional)</string>
+    <string name="country">Country</string>
+
+    <string name="address_line_1">Address Line 1</string>
+    <string name="address_line_2">Address Line 2 (Optional)</string>
+    <string name="postcode_zip">Postcode / ZIP</string>
+    <string name="city_town">City / Town</string>
+    <string name="state_province_optional">State / Province (Optional)</string>
+    <string name="state_county">State / County</string>
+    <string name="province">Province</string>
+    <string name="phone_optional">Phone (Optional)</string>
+    <string name="display_name">Display Name</string>
+    <string name="address_updated">Your address has been updated.</string>
+    <string name="customer_updated">Your account has been updated.</string>
+    <string name="password_changed">Your password has been changed.</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="change_password">Change Password</string>
+    <string name="ssl_not_verified">The SSL Certificate could not be verified. Do you want to continue?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="your_message_sent">Your message has been successfully sent.</string>
+
+    <string name="buy_now">Buy Now</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="checkout">Checkout</string>
+    <string name="choose_option">Choose an option</string>
+    <string name="clear_all">Clear All</string>
+    <string name="tag_sale">Sale!</string>
+    <string name="related_items">Related Items</string>
+    <string name="total">Total</string>
+    <string name="select_some_options">Please select some product options before adding this product to your cart.</string>
+    <string name="item_count">%d item(s).</string>
+    <string name="added_to_card">%s has been added to your card.</string>
+    <string name="order_was_placed_on">Order #%1$d was placed on %2$s and is currently %3$s.</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="shipping">Shipping</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="product">Product</string>
+    <string name="back">Back</string>
+    <string name="show_all">Show All</string>
+    <string name="categories">Categories</string>
+    <string name="sale">Sale</string>
+
+</resources>
